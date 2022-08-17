@@ -13,6 +13,7 @@
 - cd ./
   - build image `docker build -t twerlo .`
   - run image `docker container run -p 3000:3000 -p 3001:3001 --rm twerlo-test`
+  - view on `http://localhost:3000`
 ---
 ### Run server & client
 - cd ./server
@@ -22,8 +23,10 @@
 - cd ./server
   - run `npm install` 
   - run `npm run app`
+  - view on `http://localhost:3001`
   ---
 ### Run Client
 - cd ./client
   - run `npm install`
   - run `npm start`
+  - view on `http://localhost:3000`
