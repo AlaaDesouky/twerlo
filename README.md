@@ -2,10 +2,10 @@
 
 ---
 ## API Endpoint
-|  url | params  | data  |
-|---|---|---|
-| ~/api/v1/word  | {wordsCount: number, uniqueKey?: 'string}  | get a list of random words   |
-|  ~/api/v1/word |  {score: number} | get the rank based on the score  | 
+|  url | method | params  | data  |
+|---|---|---|---|
+| ~/api/v1/word | POST  | {wordsCount: number, uniqueKey?: 'string}  | get a list of random words   |
+|  ~/api/v1/word | POST |  {score: number} | get the rank based on the score  | 
 ---
 ## Run Application
 
