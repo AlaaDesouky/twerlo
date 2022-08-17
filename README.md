@@ -1,4 +1,4 @@
-# Twerol
+# Twerlo
 
 ---
 ## API Endpoint
@@ -12,7 +12,7 @@
 ### Docker
 - cd ./
   - build image `docker build -t twerlo .`
-  - run image `docker container run -p 3000:3000 -p 3001:3001 --rm twerlo-test`
+  - run image `docker container run -p 3000:3000 -p 3001:3001 --rm twerlo`
   - view on `http://localhost:3000`
 ---
 ### Run server & client
